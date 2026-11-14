@@ -23,5 +23,5 @@ For interactivity, the first plot uses interval brush and shape selection. The s
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/vanessa938/vanessa938.github.io/blob/main/python_notebooks/altair_hw.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/vanessa938/vanessa938.github.io/blob/main/python_notebooks/ufo_sightings.ipynb" text="The Analysis" %}
 </div>
