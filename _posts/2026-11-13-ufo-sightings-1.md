@@ -1,6 +1,15 @@
 ---
 layout: post
 title: "UFO Sightings: Shape and Counts"
+name: Vega-lite Plots, 4 ways
+tools: [Python, HTML, vega-lite]
+image: assets/pngs/fromvegaeditor.png
+description: Explore several ways to get plots from vega-lite and Python into your Jekyll Projects
+custom_js:
+  - vega.min
+  - vega-lite.min
+  - vega-embed.min
+  - justcharts
 ---
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_chart.json" style="width: 100%"></vegachart>
