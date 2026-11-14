@@ -3,8 +3,16 @@ layout: post
 title: "UFO Sightings: Shape and Counts"
 ---
 
-<iframe src="{{ site.baseurl }}/assets/ufo_chart.html"
-        width="100%" height="720" frameborder="0"></iframe>
+<script src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+
+<div id="ufo_chart"></div>
+
+<script>
+  vegaEmbed("#ufo_chart", "{{ site.baseurl }}/assets/json/ufo_chart.json")
+    .catch(console.error);
+</script>
 
 **The Data:** [UFO dataset](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv)
 **The Analysis:** [Python notebook](https://github.com/vanessa938/vanessa938.github.io/blob/main/python_notebooks/altair_hw.ipynb)
