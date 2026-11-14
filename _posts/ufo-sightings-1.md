@@ -1,13 +1,13 @@
 ---
 layout: post
-title: UFO Sightings: Shape and Counts
+title: "UFO Sightings: Shape and Counts"
 ---
 
 <iframe src="{{ site.baseurl }}/assets/ufo_chart.html"
         width="100%" height="720" frameborder="0"></iframe>
 
 **The Data:** [UFO dataset](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv)
-**The Analysis:** [Python notebook](https://github.com/vanessa938/vanessa938.github.io/blob/main/notebooks/ufo.ipynb)
+**The Analysis:** [Python notebook](https://github.com/vanessa938/vanessa938.github.io/blob/main/python_notebooks/altair_hw.ipynb)
 
 For the first plot, I'm visualizing the number of UFO sightings per year for each shape type. By hovering above a certain year for a certain shape it displays the count or number of sightings for that particular UFO shape for that year. Year is encoded as quantitative, shape is encoded as nominal, and count is encoded as quantitative. For the color scheme I chose tableau10 and it's colored by shape. I chose this specific color scheme because I like the colors and the colors are very distinct so there's no chance of the colors getting mixed up or confused. I added the column names for the dataframe as I read the file in. I extracted the year from the date variable and made a new quantitative variable called year with the year of the UFO sighting. I filtered the dataframe to only include years from 1990 and on. Then I filtered for the 8 most common shapes and kept only those shapes. 
 
